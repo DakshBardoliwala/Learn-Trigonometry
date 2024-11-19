@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width"> <title>Make a Triangle</title>
+	<link href="selfLabel.css" rel="stylesheet" type="text/css" />
+	<script src="selfLabel.js">
+	</script>
+	<link rel="shortcut icon" href="images/tri.ico">
+</head>
+
+<body>
+	<ul style="list-style-type: none;margin: 0;padding: 0;overflow: hidden;background-color:#4169E1;position: fixed;width:100%;">
+		<li style="float: left;" class="light"><a style="display: block;color: white;text-align: center;padding: 14px 16px;text-decoration: none;font-size: 21px;"
+			 href="index.html">Learn</a></li>
+		<li style="float: left;" class="light"><a style="display: block;color: white;text-align: center;padding: 14px 16px;text-decoration: none;font-size: 21px;"
+			 href="label.html">Label a Triangle</a></li>
+		<li style="float: left;" class="light"><a style="display: block;color: white;text-align: center;padding: 14px 16px;text-decoration: none;font-size: 21px;"
+			 href="test.html">Test your Skills</a></li>
+		<li style="float:right" class="light"><a style="display: block;color: white;text-align: center;padding: 14px 16px;text-decoration: none;font-size: 21px;"
+			 class="active" href="aboutus.html">About Us</a></li>
+	</ul>
+	<br><br><br><br>
+  <script src="selfLabel.js"></script>
+  <div class="overlay" id="overlay">
+    <center>
+		<!-- <label for="color">Color : </label> -->
+    <img src="images/pencil.png" title="Pencil Tool" onclick="pencil()" class="icon"><br>
+    <input type="color" id="color"><br>
+		<!-- <label for="strokeSize">Brush Size : </label> -->
+    <input type="number" id="strokeSize" value="3" max="100" min="1" placeholder="Size"><br>
+    <img src="images/clr.png" onclick="clearCANVAS()" class="icon"><br>
+    <!-- <button id="save" onclick="save()">Save!</button> -->
+    <img src="images/save.webp" class="icon" onclick="save()" title="Download Drawing"><br>
+    <img src="images/paint_bucket.png" class="icon" onclick="fill()" title="Fill Bucket"><br>
+    <img src="images/eraser.png" class="icon" onclick="erase()" title="Eraser">
+    </center>
+    <a id="link"></a>
+  </div>
+  <div id="gameDiv">
+    <canvas id="gameCanvas" style="border:2px solid #000;"></canvas><br>
+  </div>
+</html>

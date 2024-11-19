@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width">
+	<title>Label a Triangle</title>
+	<link href="label.css" rel="stylesheet" type="text/css" />
+	<link rel="shortcut icon" href="images/tri.ico">
+</head>
+
+<body>
+	<center>
+  <ul style="list-style-type: none;margin: 0;padding: 0;overflow: hidden;background-color:#4169E1;position: fixed;width:100%;">
+		<li style="float: left;" class="light"><a style="display: block;color: white;text-align: center;padding: 14px 16px;text-decoration: none;font-size: 21px;" href="index.html">Learn</a></li>
+		<li style="float: left;" class="light"><a style="display: block;color: white;text-align: center;padding: 14px 16px;text-decoration: none;font-size: 21px;" href="label.html">Label a Triangle</a></li>
+		<li style="float: left;" class="light"><a style="display: block;color: white;text-align: center;padding: 14px 16px;text-decoration: none;font-size: 21px;" href="test.html">Test your Skills</a></li>
+		<li style="float:right" class="light"><a style="display: block;color: white;text-align: center;padding: 14px 16px;text-decoration: none;font-size: 21px;" class="active" href="aboutus.html">About Us</a></li>
+	</ul>
+  <br><br><br>
+	<script src="label.js">
+	</script>
+  <canvas height="500" width="500" id="mainCanvas" style="margin-top:1%;margin-left:18%;"></canvas>
+	<div style="margin-right:16%;margin-top:0.5%;">
+	<script src="calc.js"></script>
+  <input type="number" id="opp" oninput="change()" placeholder="Enter the Opposite Side"><br>
+  <input type="number" id="adj" oninput="change()" placeholder="Enter the Adjacent Side"> <br>
+  <input type="number" id="hyp" oninput="change()" placeholder="Enter the Hypotenus Side"><br>
+  <input style="margin-bottom:2%;" type="text" id="theta" oninput="change()" placeholder="Enter Value of θ"><br>
+  <button onclick="calcu();startLabel()" id="enter" disabled=true>Calculate</button> &nbsp;
+  <button onclick="save()" id="save" disabled=true>Save</button>
+	</div>
+  <a id="link">
+	<br><br><br><br><br><br><br><br><br><br><br><br>
+	<center>
+	<a href="selfLabel.html">Want to make your own triangle?</a>
+	</center>
+	</center>
+</body>
+
+</html>

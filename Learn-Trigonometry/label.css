@@ -1,0 +1,46 @@
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu:ital,wght@0,400;0,700;1,400;1,700&display=swap');
+
+body{
+	font-family : 'Ubuntu', sans-serif;
+	background-color: whitesmoke;
+}
+
+canvas {
+  float: left;
+  margin-right: 25px;
+}
+input {
+	float: center;
+  font-size: 24px;
+  border-bottom-color: #bfbfbf;
+  border-top: none;
+  border-left: none;
+  border-right: none;
+  height: 50px;
+	font-family : 'Ubuntu', sans-serif;
+	background-color: whitesmoke;
+}
+
+input::placeholder {
+  font-size: 18px;
+	font-family : 'Ubuntu', sans-serif;
+}
+
+button {
+  width: auto;
+  height: 50px;
+  background-color: grey;
+	color: #ffffff;
+  font-size: 30px;
+	font-family : 'Ubuntu', sans-serif;
+}
+li a:hover {
+  background-color:#4169E1;
+}
+
+.active {
+  background-color:#07112f;
+}
+.light{
+	background-color:#4191e1;
+}

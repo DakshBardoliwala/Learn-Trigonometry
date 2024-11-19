@@ -1,0 +1,51 @@
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu:ital,wght@0,400;0,700;1,400;1,700&display=swap');
+body, head, div, canvas {
+  margin: none;
+  padding: none;
+}
+
+canvas {
+  cursor: crosshair;
+}
+
+ul {
+  display: inline;
+}
+li a:hover {
+  background-color:#4169E1;
+}
+.active {
+  background-color:#07112f;
+}
+body{
+	font-family : 'Ubuntu', sans-serif;
+	background-color: whitesmoke;
+}
+
+.overlay {
+  display: block;
+  position: absolute;
+  float: left;
+  background-color: orange;
+  /* width: 7%; */
+}
+
+input {
+  width: 40px;
+  margin-top: 10px;
+}
+
+.icon {
+  width: 32px;
+  height: 32px;
+  margin-top: 10px;
+}
+.light{
+	background-color:#4191e1;
+}
+
+.icon:hover {
+  transition-duration: 200ms;
+  width: 48px;
+  height: 48px;
+}

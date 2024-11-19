@@ -1,0 +1,28 @@
+FORMAT!
+
+Q = (Your Question)
+A = (Final Answer)
+W = (working img or something))
+S = (section sin/cos/tan, inverse functions, bearings etc)
+
+==========================================================
+
+From Daksh...Maybe we can also do something like this : 
+
+An example image will already be there, with random A, O, H lengths.
+
+Then when the user enters a value for either of the lengths / angles we can edit the image live. Obviously it would be a canvas or drawing and not an image. And then update all the missing sides / angles, with another color (maybe green)
+
+And we can have a separate page, where we have all the calci's like sin / cos / tan, etc
+
+==========================================================
+
+Dhiraj:
+
+We can add a calculator like desmos but we can make it a bit more easy to use (limited to trig functions and basic maths)
+
+we can also add a "Test" page where after the user completes everything, they get to attempt a test which will be graded
+
+Vote : 
+Daksh - GOOD IDEA...The test thing seems good. we can make random questions with different side lengths.
+==========================================================
